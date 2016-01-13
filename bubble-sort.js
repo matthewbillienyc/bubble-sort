@@ -1,4 +1,4 @@
-function bubbleSort(a)
+exports.bubbleSort = function(a)
 {
     var swapped;
     do {
@@ -12,4 +12,5 @@ function bubbleSort(a)
             }
         }
     } while (swapped);
+    return a;
 }
